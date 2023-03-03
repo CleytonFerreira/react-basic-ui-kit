@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    background-color: #262626;
+    position: relative;
+    z-index: 1;
+}
+
+.navbar .logo {
+    position: absolute;
+    font-size: 18px;
+    align-self: center;
+    left: 10px;
+    color: #fff;
+    white-space: nowrap;
+    padding: 20px;
+    z-index: 2;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    top: -100vh;
+    text-align: center;
+    background-color: inherit;
+    transition: .5s;
+}
+
+.navbar ul.show {
+    top: 100%;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    transition: .5s;
+}
+
+.navbar ul li:hover {
+    background: #630000;
+}
+
+.navbar ul li a {
+    font-size: 1.3rem;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+}
+
+
+/*responsive_navbar*/
+.responsive_navbar {
+    display: flex;
+    width: 100%;
+    padding: 10px 20px;
+    background: #1c1c1c;
+    z-index: 0;
+}
+
+.toggle_btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.toggle_btn span {
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background: #fff;
+    transform-origin: center;
+    transition: .7s;
+}
+
+.toggle_btn span:nth-child(1) {
+    top: 22.92%;
+}
+
+.toggle_btn span:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.toggle_btn span:nth-child(3) {
+    bottom: 22.92%;
+}
+
+.toggle_btn.open span:nth-child(1) {
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg);
+}
+
+.toggle_btn.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.toggle_btn.open span:nth-child(3) {
+    bottom: 50%;
+    transform: translateY(50%) rotate(45deg);
+}
+
+@media screen and (min-width: 48em) {
+
+    /*navbar*/
+    .navbar ul {
+        flex-direction: row;
+        justify-content: flex-end;
+        top: 0;
+    }
+
+    .navbar ul.show {
+        top: 0;
+    }
+
+    .navbar .logo {
+        position: initial;
+    }
+
+    /*responsive_navbar*/
+    .responsive_navbar {
+        display: none;
+    }
+}
