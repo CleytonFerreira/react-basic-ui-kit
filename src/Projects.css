@@ -1,0 +1,20 @@
+.projects {
+    padding: 30px 60px;
+}
+
+.projects h1 {
+    padding: 24px 0;
+}
+
+.projects ul {
+    padding: 30px 0;
+}
+
+.projects ul li {
+    list-style-type: none;
+    padding: 8px 0;
+}
+
+.projects ul li a {
+    text-decoration: none;
+}
