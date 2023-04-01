@@ -13,9 +13,9 @@ const Navbar = () => {
         <nav className={navStyle.navbar}>
             <div className={navStyle.logo}>Logo</div>
             <ul className={`${open ? navStyle.show : ''}`}>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
 
             <div className={navStyle.responsive_navbar}>

@@ -7,6 +7,7 @@ function Projects() {
             <h1>Projetos</h1>
             <ul>
                 <li><Link to="/navbar">Navbar responsivo</Link></li>
+                <li><Link to="/sidemenu">Menu lateral</Link></li>
             </ul>
         </div>
     )
