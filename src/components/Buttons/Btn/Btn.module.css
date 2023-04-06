@@ -1,0 +1,18 @@
+.btn {
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    background-color: #dedede;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.3);
+    transition: 0.2s;
+}
+
+.btn:hover{
+    filter: brightness(90%);
+}
+
+.btn:active{
+    box-shadow: none;
+}
