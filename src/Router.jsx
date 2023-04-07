@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Projects from './Projects';
 import Navbar from './components/Navbar';
 import SideMenu from './components/SideMenu';
@@ -16,6 +16,6 @@ function Router() {
             </Routes>
         </HashRouter>
     )
-}
+};
 
 export default Router;

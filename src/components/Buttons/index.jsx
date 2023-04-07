@@ -1,4 +1,4 @@
-import Btn from "./Btn"
+import Btn from "./Btn";
 
 function Buttons() {
     return(
@@ -6,6 +6,6 @@ function Buttons() {
             <Btn text="Default" />
         </>
     )
-}
+};
 
-export default Buttons
+export default Buttons;

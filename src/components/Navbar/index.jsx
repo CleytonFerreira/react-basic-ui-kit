@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import navStyle from './Navbar.module.css'
+import navStyle from './Navbar.module.css';
 
 
 const Navbar = () => {
@@ -7,7 +7,7 @@ const Navbar = () => {
 
     function toggleButton() {
         setOpen(!open);
-    }
+    };
 
     return (
         <nav className={navStyle.navbar}>
@@ -29,6 +29,6 @@ const Navbar = () => {
             </div>
         </nav>
     )
-}
+};
 
 export default Navbar;

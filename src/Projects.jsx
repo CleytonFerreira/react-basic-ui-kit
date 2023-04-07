@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom'
-import './Projects.css'
+import { Link } from 'react-router-dom';
+import './Projects.css';
 
 function Projects() {
     return (
@@ -12,6 +12,6 @@ function Projects() {
             </ul>
         </div>
     )
-}
+};
 
-export default Projects
+export default Projects;

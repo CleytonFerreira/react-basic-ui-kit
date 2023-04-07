@@ -28,6 +28,6 @@ const SideMenu = () => {
             </button>
         </div>
     )
-}
+};
 
 export default SideMenu;
