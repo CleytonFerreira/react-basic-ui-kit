@@ -2,7 +2,7 @@
     display: flex;
     position: relative;
     justify-content: space-between;
-    background-color: #dedede;
+    background-color: #ededed;
     position: relative;
     z-index: 1;
 }
@@ -39,7 +39,7 @@
 }
 
 .navbar ul li:hover {
-    background: #c8c8c8;
+    background: #dedede;
 }
 
 .navbar ul li a {
