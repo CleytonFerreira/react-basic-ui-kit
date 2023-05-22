@@ -1,0 +1,19 @@
+.round_btn {
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    background-color: #ededed;
+    outline: none;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.3);
+    transition: 0.2s;
+    color: #262626;
+}
+
+.round_btn:hover{
+    filter: brightness(90%);
+}
+
+.round_btn:active{
+    box-shadow: none;
+}
