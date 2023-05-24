@@ -1,4 +1,4 @@
-.round_btn {
+.btn_round {
     padding: 0.8rem 1rem;
     font-size: 1rem;
     background-color: #ededed;
@@ -10,10 +10,10 @@
     color: #262626;
 }
 
-.round_btn:hover{
+.btn_round:hover{
     filter: brightness(90%);
 }
 
-.round_btn:active{
+.btn_round:active{
     box-shadow: none;
 }

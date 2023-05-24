@@ -1,0 +1,19 @@
+.btn_large {
+    padding: 1.6rem 4rem;
+    font-size: 1.2rem;
+    background-color: #ededed;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.3);
+    transition: 0.2s;
+    color: #262626;
+}
+
+.btn_large:hover{
+    filter: brightness(90%);
+}
+
+.btn_large:active{
+    box-shadow: none;
+}
