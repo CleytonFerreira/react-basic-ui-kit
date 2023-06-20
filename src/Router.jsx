@@ -3,7 +3,7 @@ import Projects from './Projects';
 import Navbar from './components/Navbar';
 import SideMenu from './components/SideMenu';
 import Buttons from './components/Buttons';
-
+import Table from './components/Table';
 
 function Router() {
     return (
@@ -13,6 +13,7 @@ function Router() {
                 <Route path="/navbar" element={<Navbar />} />
                 <Route path="/sidemenu" element={<SideMenu />} />
                 <Route path="/buttons" element={<Buttons />} />
+                <Route path="/table" element={<Table />} />
             </Routes>
         </HashRouter>
     )

@@ -9,6 +9,7 @@ function Projects() {
                 <li><Link to="/navbar">Navbar responsivo</Link></li>
                 <li><Link to="/sidemenu">Menu lateral</Link></li>
                 <li><Link to="/buttons">Botões</Link></li>
+                <li><Link to="/table">Tabela</Link></li>
             </ul>
         </div>
     )
