@@ -1,0 +1,21 @@
+.products_table {
+    background-color: #acacac;
+    border: 1px solid #acacac;
+    border-radius: 4px;
+}
+
+.products_table th {
+    background-color: #dedede;
+}
+
+.products_table th, td {
+    padding: 5px 20px;
+}
+
+.products_table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.products_table tr:nth-child(even) {
+    background-color: #ededed;
+}

@@ -1,5 +1,5 @@
 import products from './products';
-import './Table.module.css';
+import tableStyle from './Table.module.css';
 
 const Table = () => {
     const productsTable = products.map(product => {
@@ -12,7 +12,7 @@ const Table = () => {
     });
 
     return (
-        <table>
+        <table className={tableStyle.products_table}>
             <thead>
                 <tr>
                     <th>Código</th>
