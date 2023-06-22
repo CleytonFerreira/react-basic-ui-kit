@@ -10,6 +10,7 @@ function Projects() {
                 <li><Link to="/sidemenu">Menu lateral</Link></li>
                 <li><Link to="/buttons">Botões</Link></li>
                 <li><Link to="/table">Tabela</Link></li>
+                <li><Link to="/card">Card</Link></li>
             </ul>
         </div>
     )
