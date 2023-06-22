@@ -6,7 +6,7 @@ const Table = () => {
         return (
             <tr key={product.id}>
                 <td>{`${product.id}`}</td><td>{`${product.name}`}</td>
-                <td>{`${product.price}`}</td>
+                <td>{`R$${product.price.toFixed(2).replace('.', ',')}`}</td>
             </tr>
         )
     });
