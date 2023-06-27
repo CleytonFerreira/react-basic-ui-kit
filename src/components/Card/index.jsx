@@ -1,9 +1,19 @@
-import cardStyle from './Card.module.css';
+import Card from "./Card";
+import cardsData from './cardsData'
 
-const Card = () => {
-    return(
-        <h1>Card</h1>
-    )
+const ShowCards = () => {
+    return (
+        <>
+            {cardsData.map((card) => (
+                <Card
+                    key={card.id}
+                    title={card.title}
+                    imageUrl={card.imageUrl}
+                    text={card.text}
+                />
+            ))}
+        </>
+    );
 };
 
-export default Card;
+export default ShowCards;

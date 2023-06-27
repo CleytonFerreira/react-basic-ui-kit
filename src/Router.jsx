@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import SideMenu from './components/SideMenu';
 import Buttons from './components/Buttons';
 import Table from './components/Table';
-import Card from './components/Card';
+import ShowCards from './components/Card';
 
 function Router() {
     return (
@@ -15,7 +15,7 @@ function Router() {
                 <Route path="/sidemenu" element={<SideMenu />} />
                 <Route path="/buttons" element={<Buttons />} />
                 <Route path="/table" element={<Table />} />
-                <Route path="/card" element={<Card />} />
+                <Route path="/card" element={<ShowCards />} />
             </Routes>
         </HashRouter>
     )
