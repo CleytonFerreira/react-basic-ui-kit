@@ -23,6 +23,10 @@
     border-bottom-right-radius: 8px;
 }
 
+.btn_text span {
+    font-weight: 300;
+}
+
 .btn:hover {
     filter: brightness(90%);
 }

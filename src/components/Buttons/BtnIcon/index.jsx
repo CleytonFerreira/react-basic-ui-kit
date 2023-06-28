@@ -9,7 +9,7 @@ function BtnIcon(props) {
                 <FontAwesomeIcon icon={faFolder} />
             </div>
             <div className={btnIconStyle.btn_text}>
-                {props.text}
+                <span>{props.text}</span>
             </div>
         </button>
     )

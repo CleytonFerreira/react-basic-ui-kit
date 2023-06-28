@@ -10,6 +10,10 @@
     color: #262626;
 }
 
+.btn_small span {
+    font-weight: 300;
+}
+
 .btn_small:hover{
     filter: brightness(90%);
 }

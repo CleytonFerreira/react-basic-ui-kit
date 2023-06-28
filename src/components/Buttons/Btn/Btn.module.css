@@ -5,15 +5,19 @@
     outline: none;
     border: none;
     border-radius: 8px;
-    box-shadow: 0 4px 5px 0 rgba(0,0,0,.3);
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .3);
     transition: 0.2s;
     color: #262626;
 }
 
-.btn:hover{
+.btn span {
+    font-weight: 300;
+}
+
+.btn:hover {
     filter: brightness(90%);
 }
 
-.btn:active{
+.btn:active {
     box-shadow: none;
 }
