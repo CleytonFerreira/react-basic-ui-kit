@@ -1,5 +1,5 @@
-import image1 from './imgs/img_placeholder.png';
-import image2 from './imgs/img_placeholder2.png';
+import image1 from './imgs/img_placeholder.webp';
+import image2 from './imgs/img_placeholder2.webp';
 
 const cardsData = [
     {
